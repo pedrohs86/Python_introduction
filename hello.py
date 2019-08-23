@@ -17,14 +17,25 @@ var3 = 'string'
 var4 = True
 
 x = 2
-y = 3
+y = 10
+s = x
 
-print (x == y)
-print (x < y)
-print (x>y)
+# print (x == y)
+# print (x < y)
+# print (x>y)
+# print (soma>y)
+print (s > y and x == y)
+print (s > y or x == y)
 
 x = 3
 
-print (x==y)
-print (x < y)
-print (x>y)
+# print (x==y)
+# print (x < y)
+# print (x>y)
+print (s > y and x == y)
+print (s > y or x == y)
+
+if s>y:
+    print ('maior')
+else:
+    print("menor")
