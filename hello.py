@@ -39,3 +39,26 @@ if s>y:
     print ('maior')
 else:
     print("menor")
+    
+a = -2
+b = -1
+    
+if b > a:
+    if b > 0:
+        print ("b é maior que a\nb é positivo")
+    else:
+        print ("b é maior que a\nb é negativo")
+else:
+    print ("b é menor que a")
+
+x = 1
+y =2
+
+if x == y:
+    print("numeros iguais")
+elif x > y:
+    print("x maior que y")
+elif y > x:
+    print("y maior que x")
+else:
+    print("Bugou")
